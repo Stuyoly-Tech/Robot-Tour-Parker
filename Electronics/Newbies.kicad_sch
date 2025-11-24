@@ -4093,7 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 190.5) (xy 168.91 190.5)
+			(xy 163.83 185.42) (xy 171.45 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4440,16 +4440,6 @@
 			(type default)
 		)
 		(uuid "9200fad4-b60a-46f9-a7c2-33d3ff327b9e")
-	)
-	(wire
-		(pts
-			(xy 163.83 185.42) (xy 163.83 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d4bd41-99e3-4939-a389-8fb17e0a6589")
 	)
 	(wire
 		(pts
@@ -5051,7 +5041,7 @@
 		)
 		(uuid "82f4e75c-252a-4964-9533-79a426ffb42e")
 	)
-	(label "IMU_SDA"
+	(label "SDA"
 		(at 132.08 134.62 270)
 		(effects
 			(font
@@ -5091,7 +5081,7 @@
 		)
 		(uuid "bebad2a7-c084-4dae-9cc0-f9b1bd07c786")
 	)
-	(label "IMU_SCL"
+	(label "SCL"
 		(at 144.78 109.22 180)
 		(effects
 			(font
@@ -5111,7 +5101,7 @@
 		)
 		(uuid "cdd8e80c-5bd2-436b-a64d-029cbf2ebae1")
 	)
-	(label "IMU_SCL"
+	(label "SCL"
 		(at 139.7 134.62 270)
 		(effects
 			(font
@@ -5121,7 +5111,7 @@
 		)
 		(uuid "db0c262c-3a8b-4409-a8dd-03e30a2e93eb")
 	)
-	(label "IMU_SDA"
+	(label "SDA"
 		(at 144.78 106.68 180)
 		(effects
 			(font
@@ -5788,7 +5778,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 168.91 190.5 0)
+		(at 171.45 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5797,7 +5787,7 @@
 		(fields_autoplaced yes)
 		(uuid "45433f25-1805-4881-a1d3-8a7748d36ce7")
 		(property "Reference" "#PWR012"
-			(at 168.91 194.31 0)
+			(at 171.45 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5796,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 168.91 185.42 0)
+			(at 171.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 190.5 0)
+			(at 171.45 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 190.5 0)
+			(at 171.45 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 168.91 190.5 0)
+			(at 171.45 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.2K"
 			(at 113.03 170.1799 0)
 			(effects
 				(font
@@ -6668,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.2K"
 			(at 120.65 165.0999 0)
 			(effects
 				(font
